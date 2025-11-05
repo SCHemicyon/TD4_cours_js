@@ -1,5 +1,14 @@
-body{
+
+body {
     user-select: none;
+
+    
+    background-image: url("../img/la-petite-histoire-du-cirque.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+
 }
 
 header {
@@ -55,6 +64,7 @@ header {
 }
 
 main {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
